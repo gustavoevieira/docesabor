@@ -90,6 +90,7 @@ h3 {
     background-color: var(--cor-destaque-hover);
     transform: translateY(-3px);
     box-shadow: var(--sombra-media);
+    color: var(--cor-texto-escuro);
 }
 
 .menu-button-wrapper {
