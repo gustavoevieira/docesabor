@@ -73,25 +73,6 @@ Este é um projeto **estático** e muito fácil de configurar!
     * Você pode simplesmente abrir o arquivo `index.html` diretamente no seu navegador. Navegue até a pasta onde clonou o projeto e clique duas vezes em `index.html`.
     * **Alternativa (Recomendada para desenvolvimento):** Use uma extensão como "Live Server" (para VS Code) ou inicie um servidor HTTP simples na pasta raiz do projeto. Isso garante que todos os caminhos de recursos (CSS, JS, Imagens) sejam carregados corretamente, especialmente se você tiver problemas de CORS com imagens de placeholders.
 
-### Estrutura de Pastas (Essencial)
-Certifique-se de que a estrutura de pastas dentro do projeto está conforme abaixo para que os caminhos dos assets funcionem corretamente:
-
-doceria-doce-sabor/
-├── index.html                  # Página principal do site
-├── public/
-│   ├── css/
-│   │   └── style.css           # Estilos CSS do site
-│   ├── js/
-│   │   └── script.js           # Lógica JavaScript para animações e galeria
-│   └── uploads/
-│       └── img/                # Imagens de doces e ambiente (miniaturas e full-size)
-│           ├── chocolate-cake.png
-│           ├── brigadeiro-gourmet.png
-│           ├── ... (todas as suas imagens)
-│           └── galery-1-full.png # Exemplo de imagem de galeria em tamanho real
-└── README.md                   # Este arquivo
-
----
 
 ## 🎯 Melhorias Futuras (Roadmap)
 
